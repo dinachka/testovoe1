@@ -7,20 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4284D852A54749D00B76362 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D842A54749D00B76362 /* Resources.swift */; };
+		B4284D882A54759600B76362 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D872A54759600B76362 /* MainTableViewCell.swift */; };
+		B4284D8C2A54791A00B76362 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D8B2A54791A00B76362 /* UIView + Extensions.swift */; };
+		B4284D902A547D7C00B76362 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D8F2A547D7C00B76362 /* EditingViewController.swift */; };
+		B4284D942A54825C00B76362 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D932A54825C00B76362 /* TextViewTableViewCell.swift */; };
+		B4284D962A54842700B76362 /* NameTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4284D952A54842700B76362 /* NameTextView.swift */; };
+		B42C9D682A5BF4EA000205F7 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D672A5BF4EA000205F7 /* DatePickerTableViewCell.swift */; };
+		B42C9D6A2A5BF844000205F7 /* PickerVIewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D692A5BF844000205F7 /* PickerVIewTableViewCell.swift */; };
+		B42C9D6C2A5BF8F4000205F7 /* SexPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D6B2A5BF8F4000205F7 /* SexPickerView.swift */; };
+		B42C9D6E2A5BFAAF000205F7 /* SexTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D6D2A5BFAAF000205F7 /* SexTextField.swift */; };
+		B42C9D702A5C029A000205F7 /* EditingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D6F2A5C029A000205F7 /* EditingTableView.swift */; };
+		B42C9D732A5C22C2000205F7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D722A5C22C2000205F7 /* UserModel.swift */; };
+		B42C9D762A5C23AF000205F7 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D752A5C23AF000205F7 /* UserDefaultsHelper.swift */; };
+		B42C9D782A5C2880000205F7 /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D772A5C2880000205F7 /* UIViewController + Extensions.swift */; };
+		B42C9D7A2A5C2A11000205F7 /* UIBarButtonItem + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D792A5C2A11000205F7 /* UIBarButtonItem + Extensions.swift */; };
+		B42C9D7C2A5C3187000205F7 /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D7B2A5C3187000205F7 /* UITableView + Extensions.swift */; };
+		B42C9D7E2A5C53C6000205F7 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D7D2A5C53C6000205F7 /* String + Extensions.swift */; };
+		B42C9D802A5C542D000205F7 /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D7F2A5C542D000205F7 /* Date + Extensions.swift */; };
+		B42C9D822A5C6A5F000205F7 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C9D812A5C6A5F000205F7 /* MainTableView.swift */; };
 		B4F521692A4B2E1B003F3A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F521682A4B2E1B003F3A58 /* AppDelegate.swift */; };
-		B4F5216B2A4B2E1B003F3A58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5216A2A4B2E1B003F3A58 /* SceneDelegate.swift */; };
-		B4F5216D2A4B2E1B003F3A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5216C2A4B2E1B003F3A58 /* ViewController.swift */; };
-		B4F521702A4B2E1B003F3A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F5216E2A4B2E1B003F3A58 /* Main.storyboard */; };
+		B4F5216D2A4B2E1B003F3A58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5216C2A4B2E1B003F3A58 /* MainViewController.swift */; };
 		B4F521722A4B2E1C003F3A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F521712A4B2E1C003F3A58 /* Assets.xcassets */; };
 		B4F521752A4B2E1C003F3A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F521732A4B2E1C003F3A58 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4284D842A54749D00B76362 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		B4284D872A54759600B76362 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		B4284D8B2A54791A00B76362 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		B4284D8F2A547D7C00B76362 /* EditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		B4284D932A54825C00B76362 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		B4284D952A54842700B76362 /* NameTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextView.swift; sourceTree = "<group>"; };
+		B42C9D672A5BF4EA000205F7 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		B42C9D692A5BF844000205F7 /* PickerVIewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVIewTableViewCell.swift; sourceTree = "<group>"; };
+		B42C9D6B2A5BF8F4000205F7 /* SexPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexPickerView.swift; sourceTree = "<group>"; };
+		B42C9D6D2A5BFAAF000205F7 /* SexTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexTextField.swift; sourceTree = "<group>"; };
+		B42C9D6F2A5C029A000205F7 /* EditingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingTableView.swift; sourceTree = "<group>"; };
+		B42C9D722A5C22C2000205F7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B42C9D752A5C23AF000205F7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		B42C9D772A5C2880000205F7 /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		B42C9D792A5C2A11000205F7 /* UIBarButtonItem + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem + Extensions.swift"; sourceTree = "<group>"; };
+		B42C9D7B2A5C3187000205F7 /* UITableView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extensions.swift"; sourceTree = "<group>"; };
+		B42C9D7D2A5C53C6000205F7 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		B42C9D7F2A5C542D000205F7 /* Date + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
+		B42C9D812A5C6A5F000205F7 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
 		B4F521652A4B2E1B003F3A58 /* testovoe1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testovoe1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F521682A4B2E1B003F3A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4F5216A2A4B2E1B003F3A58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4F5216C2A4B2E1B003F3A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4F5216F2A4B2E1B003F3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4F5216C2A4B2E1B003F3A58 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B4F521712A4B2E1C003F3A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4F521742A4B2E1C003F3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F521762A4B2E1C003F3A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +71,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4284D832A54749100B76362 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D842A54749D00B76362 /* Resources.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4284D862A54758100B76362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D872A54759600B76362 /* MainTableViewCell.swift */,
+				B42C9D812A5C6A5F000205F7 /* MainTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4284D892A5478F000B76362 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D8A2A54790200B76362 /* UIKit */,
+				B42C9D7D2A5C53C6000205F7 /* String + Extensions.swift */,
+				B42C9D7F2A5C542D000205F7 /* Date + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4284D8A2A54790200B76362 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D8B2A54791A00B76362 /* UIView + Extensions.swift */,
+				B42C9D772A5C2880000205F7 /* UIViewController + Extensions.swift */,
+				B42C9D792A5C2A11000205F7 /* UIBarButtonItem + Extensions.swift */,
+				B42C9D7B2A5C3187000205F7 /* UITableView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B4284D8D2A547D6200B76362 /* EditingModule */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D912A54822C00B76362 /* Views */,
+				B4284D8E2A547D6A00B76362 /* Controllers */,
+			);
+			path = EditingModule;
+			sourceTree = "<group>";
+		};
+		B4284D8E2A547D6A00B76362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D8F2A547D7C00B76362 /* EditingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4284D912A54822C00B76362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D922A54824700B76362 /* Cells */,
+				B4284D952A54842700B76362 /* NameTextView.swift */,
+				B42C9D6B2A5BF8F4000205F7 /* SexPickerView.swift */,
+				B42C9D6D2A5BFAAF000205F7 /* SexTextField.swift */,
+				B42C9D6F2A5C029A000205F7 /* EditingTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4284D922A54824700B76362 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B4284D932A54825C00B76362 /* TextViewTableViewCell.swift */,
+				B42C9D672A5BF4EA000205F7 /* DatePickerTableViewCell.swift */,
+				B42C9D692A5BF844000205F7 /* PickerVIewTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B42C9D712A5C22B5000205F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B42C9D722A5C22C2000205F7 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B42C9D742A5C239E000205F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B42C9D752A5C23AF000205F7 /* UserDefaultsHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B4F5215C2A4B2E1B003F3A58 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +183,51 @@
 		B4F521672A4B2E1B003F3A58 /* testovoe1 */ = {
 			isa = PBXGroup;
 			children = (
-				B4F521682A4B2E1B003F3A58 /* AppDelegate.swift */,
-				B4F5216A2A4B2E1B003F3A58 /* SceneDelegate.swift */,
-				B4F5216C2A4B2E1B003F3A58 /* ViewController.swift */,
-				B4F5216E2A4B2E1B003F3A58 /* Main.storyboard */,
-				B4F521712A4B2E1C003F3A58 /* Assets.xcassets */,
-				B4F521732A4B2E1C003F3A58 /* LaunchScreen.storyboard */,
-				B4F521762A4B2E1C003F3A58 /* Info.plist */,
+				B42C9D742A5C239E000205F7 /* Services */,
+				B4284D8D2A547D6200B76362 /* EditingModule */,
+				B4284D892A5478F000B76362 /* Extensions */,
+				B4284D832A54749100B76362 /* Resources */,
+				B4F5217C2A4B2EF9003F3A58 /* Application */,
+				B4F5217E2A4B2FEE003F3A58 /* MainModule */,
+				B4F5217D2A4B2F8E003F3A58 /* Supporting Files */,
 			);
 			path = testovoe1;
+			sourceTree = "<group>";
+		};
+		B4F5217C2A4B2EF9003F3A58 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B4F521682A4B2E1B003F3A58 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B4F5217D2A4B2F8E003F3A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F521762A4B2E1C003F3A58 /* Info.plist */,
+				B4F521732A4B2E1C003F3A58 /* LaunchScreen.storyboard */,
+				B4F521712A4B2E1C003F3A58 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4F5217E2A4B2FEE003F3A58 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				B42C9D712A5C22B5000205F7 /* Models */,
+				B4284D862A54758100B76362 /* Views */,
+				B4F5217F2A4B2FF6003F3A58 /* Controllers */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		B4F5217F2A4B2FF6003F3A58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5216C2A4B2E1B003F3A58 /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +290,6 @@
 			files = (
 				B4F521752A4B2E1C003F3A58 /* LaunchScreen.storyboard in Resources */,
 				B4F521722A4B2E1C003F3A58 /* Assets.xcassets in Resources */,
-				B4F521702A4B2E1B003F3A58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +300,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F5216D2A4B2E1B003F3A58 /* ViewController.swift in Sources */,
+				B42C9D762A5C23AF000205F7 /* UserDefaultsHelper.swift in Sources */,
+				B42C9D6A2A5BF844000205F7 /* PickerVIewTableViewCell.swift in Sources */,
+				B4284D8C2A54791A00B76362 /* UIView + Extensions.swift in Sources */,
+				B42C9D822A5C6A5F000205F7 /* MainTableView.swift in Sources */,
+				B4284D852A54749D00B76362 /* Resources.swift in Sources */,
+				B4284D902A547D7C00B76362 /* EditingViewController.swift in Sources */,
+				B4F5216D2A4B2E1B003F3A58 /* MainViewController.swift in Sources */,
+				B42C9D782A5C2880000205F7 /* UIViewController + Extensions.swift in Sources */,
+				B42C9D6C2A5BF8F4000205F7 /* SexPickerView.swift in Sources */,
+				B42C9D6E2A5BFAAF000205F7 /* SexTextField.swift in Sources */,
+				B4284D882A54759600B76362 /* MainTableViewCell.swift in Sources */,
+				B42C9D732A5C22C2000205F7 /* UserModel.swift in Sources */,
+				B42C9D802A5C542D000205F7 /* Date + Extensions.swift in Sources */,
+				B4284D942A54825C00B76362 /* TextViewTableViewCell.swift in Sources */,
+				B42C9D7A2A5C2A11000205F7 /* UIBarButtonItem + Extensions.swift in Sources */,
+				B42C9D702A5C029A000205F7 /* EditingTableView.swift in Sources */,
+				B4284D962A54842700B76362 /* NameTextView.swift in Sources */,
+				B42C9D7E2A5C53C6000205F7 /* String + Extensions.swift in Sources */,
 				B4F521692A4B2E1B003F3A58 /* AppDelegate.swift in Sources */,
-				B4F5216B2A4B2E1B003F3A58 /* SceneDelegate.swift in Sources */,
+				B42C9D682A5BF4EA000205F7 /* DatePickerTableViewCell.swift in Sources */,
+				B42C9D7C2A5C3187000205F7 /* UITableView + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B4F5216E2A4B2E1B003F3A58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4F5216F2A4B2E1B003F3A58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B4F521732A4B2E1C003F3A58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +461,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V9AQP5X85P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testovoe1/Info.plist;
+				INFOPLIST_FILE = "testovoe1/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +474,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinachka.testovoe1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +492,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V9AQP5X85P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testovoe1/Info.plist;
+				INFOPLIST_FILE = "testovoe1/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +505,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinachka.testovoe1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
